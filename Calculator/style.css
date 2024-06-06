@@ -1,0 +1,48 @@
+h1{
+    color: #ffffff;
+    margin-right: 40px;
+}
+body {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    height: 100vh;
+}
+button{
+    width: 100px;
+    height: 80px;
+    font-weight: italic;
+    font-size: 3em;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#signs{
+    display: grid;
+    padding: 25px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10x;
+}
+#display{
+    width: 100%;
+    font-size: 5em;
+    padding: 20px;
+    text-align: left;
+    border: none;
+}
+
+#sign_container{
+    overflow: hidden;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #babecc,-10px -10px 20px #ffffff ;
+}
+button:active{
+    background-color: gray;
+}
+button:hover{
+    background-color: #babecc;
+}
